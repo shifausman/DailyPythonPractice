@@ -1,0 +1,32 @@
+len(name) #bro Code = 8
+
+to find first occurance
+name.find(" ") #3 [0 1 2 ...7]
+
+to find last occurance
+name.rfind("o") #5 [0 1 2 ...7]
+
+these two functions will return -1 if ther is no such letter
+
+name.capitalize()    #will capitalize the frst letter
+name.upper()         #BRO CODE
+name.lower()         #bro Code
+
+name.isdigit()
+name.isalpha()
+name.count("o")
+name.replace("o","e")
+
+INDEXING : string[start : end : step]
+
+credit_card_number = "01234567"
+credit_card_number[:4]   # 0123 (print from 0 to 3)
+
+print(f"result = {result: .2f}")
+print(f"result = {result: <10}")  #left aligned
+print(f"result = {result: >10}")  #right alinged
+print(f"result = {result: ^10}")  #centre alinged
+print(f"result = {result: +}")    #specifies sign like + or -
+print(f"result = {result: }")     #specifies sign like " " if positive "-" if negative
+print(f"result = {result:,}")     #eg: 1,200
+print(f"result = {result:+,.2f}") #eg: +1,200.00
